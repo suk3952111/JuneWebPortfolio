@@ -12,8 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        freesentation: ["FreesentationVF", "sans-serif"],
+        cafe24: ["Cafe24Ohsquare", "sans-serif"],
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
