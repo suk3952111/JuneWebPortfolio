@@ -18,22 +18,30 @@
   font-display: swap;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  height: 100%;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-primary);
+}
+
+:root {
+  color-scheme: light;
+  --color-bg-primary: #fff;
+  --color-text-secondary: #333;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg-primary: #15232d;
+  --color-text-secondary: #fff;
 }
 
 @layer utilities {

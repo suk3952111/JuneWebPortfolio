@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ThemeScript from "./_components/ThemeScript";
 
 export const metadata: Metadata = {
   title: "우준석",
@@ -12,7 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   );
