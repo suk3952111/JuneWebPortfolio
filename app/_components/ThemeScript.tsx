@@ -12,16 +12,16 @@ function code() {
   window.__onThemeChange = function () {};
 
   function setTheme(newTheme: Theme) {
-    document.documentElement.classList.remove(window.__theme);
+    if (window.__theme) {
+      document.documentElement.classList.remove(window.__theme);
+    }
     window.__theme = newTheme;
-    preferredTheme = newTheme;
     document.documentElement.dataset.theme = newTheme;
-
-    window.__onThemeChange(newTheme);
     document.documentElement.classList.add(newTheme);
+    window.__onThemeChange(newTheme);
   }
 
-  let preferredTheme;
+  let preferredTheme: Theme | null = null;
 
   try {
     preferredTheme = localStorage.getItem("theme") as Theme;
@@ -44,7 +44,9 @@ function code() {
     window.__setPreferredTheme(e.matches ? "dark" : "light");
   });
 
-  setTheme(preferredTheme || (darkQuery.matches ? "dark" : "light"));
+  // 로컬 스토리지에 테마가 없으면 시스템 설정을 사용
+  const initialTheme = preferredTheme || (darkQuery.matches ? "dark" : "light");
+  setTheme(initialTheme);
 }
 
 export default function ThemeScript() {

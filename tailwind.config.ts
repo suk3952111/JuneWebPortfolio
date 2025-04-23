@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        slide01: "slide01 30s linear infinite",
+        slide02: "slide02 30s linear infinite 15s", // ⭐️ 15초 뒤 시작
+      },
       colors: {
         primary: {
           light: "#4A90E2",
