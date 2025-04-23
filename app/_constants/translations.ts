@@ -16,29 +16,29 @@ export const translations = {
           name: "TRIP TERIOR",
           description:
             "A family trip management project. Provides features to manage trip preparations, records, and sharing in group units. Implemented using Next.js 14 (App Router), TypeScript, SCSS, OAuth, and more. Responsible for user authentication using Kakao OAuth API and JWT tokens, collaboration using Figma and Notion, and modular styling with SCSS.",
-          link: "https://github.com/suk3952111/trip-terior",
-          demoLink: "https://trip-terior-demo.com", // 예시 데모 링크
+          link: "https://github.com/SWYP-6-6/tripterrior",
+          demoLink: null, // 예시 데모 링크
         },
         {
           name: "Moilkji",
           description:
             "A platform for book clubs and community features. Collaboration project with designers and backend developers. Used Next.js 14 (App Router), TypeScript, TanStack Query, Zustand, Zod, Tailwind, Shadcn/ui, and more. Implemented book club creation using Aladin book list API, daily reading time goals, and integrated search for clubs and reviews.",
-          link: "https://github.com/suk3952111/moilkji",
+          link: "https://github.com/Codeit-Sprint-Teamproject/frontend",
           demoLink: null, // 데모 링크 없음
         },
         {
           name: "Synamon",
           description:
             "A meeting platform where people with similar interests can share new experiences. Find and join meetings based on hobbies and interests, or create new ones. Built with Next.js, TypeScript, Tailwind CSS, ReactQuery, Axios, ReactHookForm, Zod, Shadcn/ui, NaverMap, KakaoPostcode, and DatePicker. Implemented CRUD features for participation history, my meetings, and recruitment status.",
-          link: "https://github.com/suk3952111/synamon",
-          demoLink: "https://synamon-demo.com", // 예시 데모 링크
+          link: "https://github.com/Codeit-part4-team1/synamon",
+          demoLink: "https://synamon.vercel.app/", // 예시 데모 링크
         },
         {
           name: "TickyTocky",
           description:
             "A web service to manage team tasks and schedules. Implemented invitation-related CRUD features and popup UI. Used Next.js, Axios, ReactHookForm, Zustand, SCSS, Stylelint, ESLint, and Prettier. Also developed common components like TagField, CardTags, Dropdown, etc.",
-          link: "https://github.com/suk3952111/tickytocky",
-          demoLink: null, // 데모 링크 없음
+          link: "https://github.com/TickyTocky/TickyTocky",
+          demoLink: "https://ticky-tocky.vercel.app/", // 데모 링크 없음
         },
       ],
       react: [
@@ -47,14 +47,14 @@ export const translations = {
           description:
             "A chat application with real-time notification features. Used React Vite, React Hook Form, Supabase, Supabase Realtime, and Supabase Storage. Implemented real-time notifications and messaging using Supabase Realtime, and ensured data integrity by connecting chat and user tables with foreign keys.",
           link: "https://github.com/suk3952111/chat-app",
-          demoLink: "https://chat-app-demo.com", // 예시 데모 링크
+          demoLink: "https://chat-app-lemon-xi.vercel.app/", // 예시 데모 링크
         },
         {
           name: "My E-commerce App",
           description:
             "An online shopping web application. Search for products, add them to the cart, manage them, and write comments on specific products. Built with React-Vite, Supabase, Supabase Storage, React Hook Form, UUID, and Fake Store API. Implemented user authentication, cart management, and custom hooks for state management and business logic modularization.",
-          link: "https://github.com/suk3952111/ecommerce-app",
-          demoLink: null, // 데모 링크 없음
+          link: "https://github.com/suk3952111/My-E-commerce-App",
+          demoLink: "https://my-e-commerce-app-pink.vercel.app/",
         },
       ],
     },
@@ -85,29 +85,29 @@ export const translations = {
           name: "TRIP TERIOR",
           description:
             "가족여행관리 프로젝트. 그룹 단위로 여행 준비부터 기록 그리고 공유까지 손쉽게 관리할 수 있는 기능을 제공. Next.js 14 (App Router), TypeScript, SCSS, OAuth 등을 사용. Kakao OAuth API와 JWT 토큰을 활용한 사용자 인증 처리 구현, Figma와 Notion을 통한 협업, SCSS의 module.scss와 mixins를 활용한 모듈화된 스타일 구현.",
-          link: "https://github.com/suk3952111/trip-terior",
-          demoLink: "https://trip-terior-demo.com", // 예시 데모 링크
+          link: "https://github.com/SWYP-6-6/tripterrior",
+          demoLink: null, // 예시 데모 링크
         },
         {
           name: "모읽지",
           description:
             "독서 모임과 커뮤니티 기능 플랫폼. 디자이너 및 백엔드 개발자와의 협업 프로젝트. Next.js 14 (App Router), TypeScript, TanStack Query, Zustand, Zod, Tailwind, Shadcn/ui 등을 사용. 알라딘 책 리스트 API를 활용한 독서 모임 생성, 하루 독서 시간 목표 설정 및 달성 여부 확인, 모임과 리뷰를 통합 검색할 수 있는 페이지 구현.",
-          link: "https://github.com/suk3952111/moilkji",
+          link: "https://github.com/Codeit-Sprint-Teamproject/frontend",
           demoLink: null, // 데모 링크 없음
         },
         {
           name: "Synamon",
           description:
             "뜻이 맞는 사람들과 함께 활동하며 새로운 경험을 나눌 수 있는 모임 플랫폼. 취향과 관심사에 맞는 모임을 찾아 가입하거나 직접 새로운 모임을 생성. Next.js, TypeScript, Tailwind CSS, ReactQuery, Axios, ReactHookForm, Zod, Shadcn/ui, NaverMap, KakaoPostcode, DatePicker 등을 사용. 참여 내역, 내 모임, 모집 현황 CRUD 기능 구현.",
-          link: "https://github.com/suk3952111/synamon",
-          demoLink: "https://synamon-demo.com", // 예시 데모 링크
+          link: "https://github.com/Codeit-part4-team1/synamon",
+          demoLink: "https://synamon.vercel.app/", // 예시 데모 링크
         },
         {
           name: "TickyTocky",
           description:
             "팀의 업무와 일정을 관리할 수 있는 웹서비스. 초대 관련 CRUD 기능 및 팝업 UI 구현. Next.js, Axios, ReactHookForm, Zustand, SCSS, Stylelint, ESLint, Prettier 사용. TagField, CardTags, Dropdown 등의 공용 컴포넌트 구현.",
-          link: "https://github.com/suk3952111/tickytocky",
-          demoLink: null, // 데모 링크 없음
+          link: "https://github.com/TickyTocky/TickyTocky",
+          demoLink: "https://ticky-tocky.vercel.app/",
         },
       ],
       react: [
@@ -116,14 +116,14 @@ export const translations = {
           description:
             "실시간 알림 기능을 포함한 채팅 애플리케이션. React Vite, React Hook Form, Supabase, Supabase Realtime, Supabase Storage 사용. Supabase Realtime을 이용한 실시간 알림 및 메시징 기능 구현, React Hook Form을 활용한 로그인 및 회원가입 폼의 즉각적인 유효성 검사 구현. ",
           link: "https://github.com/suk3952111/chat-app",
-          demoLink: "https://chat-app-demo.com", // 예시 데모 링크
+          demoLink: "https://chat-app-lemon-xi.vercel.app/",
         },
         {
           name: "My E-commerce App",
           description:
             "온라인 쇼핑 웹 애플리케이션. 상품 검색, 장바구니 관리, 특정 상품에 댓글 작성 및 소통 기능. React-Vite, Supabase, Supabase Storage, React Hook Form, UUID, Fake Store API 사용. React Hook Form을 통한 폼 구성 요소의 실시간 유효성 검사, Supabase를 활용한 사용자 인증 시스템 구현, 사용자 인증 및 장바구니 관리를 위한 커스텀 훅 설계.",
-          link: "https://github.com/suk3952111/ecommerce-app",
-          demoLink: null, // 데모 링크 없음
+          link: "https://github.com/suk3952111/My-E-commerce-App",
+          demoLink: "https://my-e-commerce-app-pink.vercel.app/",
         },
       ],
     },
